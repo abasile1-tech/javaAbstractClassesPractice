@@ -14,6 +14,11 @@ public class Car extends Vehicle {
 
     }
 
+    @Override
+    public String boardingInstructions() {
+        return "Get in.";
+    }
+
     public String openDoors()
     {
         return ("Beep. "+ numberOfDoors +" doors opened.");

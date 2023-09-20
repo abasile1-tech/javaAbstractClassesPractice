@@ -1,4 +1,4 @@
-public class Vehicle {
+public abstract class Vehicle {
 
     private String model;
     private int numberOfWheels;
@@ -11,6 +11,8 @@ public class Vehicle {
     public String drivingInstructions(){
         return "Turn the key to start.";
     }
+
+    public abstract String boardingInstructions();
 
     public String getModel() {
         return model;

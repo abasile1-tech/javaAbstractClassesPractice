@@ -10,4 +10,9 @@ public class Motorbike extends Vehicle {
         return super.drivingInstructions() + " Use handlebars to steer.";
 
     }
+
+    @Override
+    public String boardingInstructions() {
+        return "Hop on.";
+    }
 }
